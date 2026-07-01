@@ -1,8 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import { useState } from 'react'
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,12 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>Vite + React</h1>
-        <div className="card">
-          <button onClick={handleClick}>
-            count is {count}
-          </button>
-        </div>
+        <h1>React en Web Avanzada</h1>
+        
       </div>
     </>
   )
