@@ -17,7 +17,7 @@ export default function Laboratorio2() {
             <div className="ejercicios flex flex-wrap w-full gap-6 p-2 bg-white rounded-2xl shadow-lg border border-gray-100">
                 
 
-               <div className="ejercicio-1 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+               <div className="ejercicio-1 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 1
                     </h3>
@@ -29,7 +29,7 @@ export default function Laboratorio2() {
                     <Perfil />
                 </div>
                 
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 2-3
                     </h3>
@@ -38,7 +38,7 @@ export default function Laboratorio2() {
                        
                 </div>
 
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-4 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 4
                     </h3>
@@ -46,35 +46,35 @@ export default function Laboratorio2() {
                        
                 </div>
                 
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-5 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 5
                     </h3>
                     <ListaHabilidades />   
                        
                 </div>
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-6 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 6
                     </h3>
                     <ListaProductos />   
                        
                 </div>
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-7 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 7
                     </h3>
                     <ListaTareas     />   
                        
                 </div>
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-8 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 8
                     </h3>
                     <Tarjeta />   
                        
                 </div>
-                <div className="ejercicio-2 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-gradient-to-r from-blue-50/50 to-purple-50/50 rounded-xl">
+                <div className="ejercicio-9 flex flex-wrap justify-center items-center w-full gap-4 border border-gray-200 py-6 px-4 bg-[#f8fafc] rounded-xl">
                     <h3 className="w-full text-[#1e293b] font-bold text-2xl">
                         Ejercicio 9
                     </h3>
