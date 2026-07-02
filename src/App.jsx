@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Perfil from '../src/components/Perfil'
 import Laboratorio2 from '../laboratorios/laboratorio2'
 import Laboratorio3 from '../laboratorios/laboratorio3'
+import Laboratorio4 from '../laboratorios/laboratorio4'
 
 function App() {
   const [laboratorioActivo, setLaboratorioActivo] = useState('lab2');
@@ -13,7 +14,9 @@ function App() {
       case 'lab2':
         return <Laboratorio2 />;
       case 'lab3':
-        return <Laboratorio3 />;  
+        return <Laboratorio3 />; 
+      case 'lab4':
+        return <Laboratorio4 />;    
       default:
         return <Laboratorio2 />;
     }
@@ -53,6 +56,17 @@ function App() {
             }`}
           >
             Laboratorio 3
+          </button>
+
+          <button
+            onClick={() => setLaboratorioActivo('lab4')}
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-all duration-300 ${
+              laboratorioActivo === 'lab4'
+                ? 'bg-[#1e293b] text-white shadow-md'
+                : 'text-[#1e293b] hover:bg-gray-100'
+            }`}
+          >
+            Laboratorio 4
           </button>
         </div>
          
